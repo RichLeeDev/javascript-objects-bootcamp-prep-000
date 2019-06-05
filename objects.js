@@ -1,3 +1,5 @@
 var playlist = { Drake: "kiki" }
 
-function updatePlaylist(pl
+function updatePlaylist(playlist, artistnamem songTitle) {
+  return object.assign({}, playlist, artistname, songTitle)
+}
